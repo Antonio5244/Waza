@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio de Sesión y Registro</title>
+</head>
+<body>
+  <h2>Iniciar Sesión</h2>
+  <form action="/login" method="post">
+    <label for="username">Nombre de Usuario:</label>
+    <input type="text" id="username" name="username" required><br><br>
+    
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <input type="submit" value="Iniciar Sesión">
+  </form>
+  
+  <h2>Registrarse</h2>
+  <form action="/register" method="post">
+    <label for="new-username">Nombre de Usuario:</label>
+    <input type="text" id="new-username" name="new-username" required><br><br>
+    
+    <label for="new-password">Contraseña:</label>
+    <input type="password" id="new-password" name="new-password" required><br><br>
+    
+    <input type="submit" value="Registrarse">
+  </form>
+</body>
+</html>
